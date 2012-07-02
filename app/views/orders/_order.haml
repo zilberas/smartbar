@@ -1,0 +1,45 @@
+-if order.completed
+  %div{:class=>"order completed",'data-time' => order.created_at.to_i}
+    .table_info
+      .table_nr
+        Staliuko nr.
+        =order.table_id
+      .user
+        Klientas:
+        =order.username.to_s + " ("
+        =order.phone.to_s + " )"
+      .time
+        =order.created_at.strftime("Priimtas: %Y-%m-%d %H:%M:%S ")
+        |
+        =order.updated_at.strftime("Įvykdytas: %Y-%m-%d %H:%M:%S ")
+        |
+        Užsakymo id:
+        =order.id
+    .order_info
+      -for item in order.menu_items
+        .item
+          =item.name
+    .clear
+-else
+  .order{'data-time' => order.created_at.to_i}
+    .table_info
+      .table_nr
+        Staliuko nr.
+        =order.table_id
+      .user
+        Klientas:
+        =order.username.to_s + " ("
+        =order.phone.to_s + " )"
+      .time
+        =order.created_at.strftime("Priimtas %Y-%m-%d %H:%M:%S ")
+        |
+        Užsakymo id:
+        =order.id
+    .complete
+      =link_to("Įvykdytas", complete_order_path(order), :remote => true, :class=>"button")
+    .clear
+    .order_info
+      -for item in order.menu_items
+        .item
+          =item.name
+    .clear

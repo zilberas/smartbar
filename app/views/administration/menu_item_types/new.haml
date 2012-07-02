@@ -1,0 +1,5 @@
+%h1
+  New Type
+  
+=form_for(@menu_item_type, :url => administration_menu_item_types_path) do |f|
+  =render :partial => 'form', :locals => {:f => f}

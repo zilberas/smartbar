@@ -1,0 +1,10 @@
+- content_for :submenu do
+  = link_to "New menu item", new_administration_menu_item_path
+
+- content_for :sidemenu do
+  %ul
+    -for menu_item in @menu_items
+      %li
+        =link_to menu_item.name, edit_administration_menu_item_path(menu_item)
+        =menu_item.menu_item_type.name
+        

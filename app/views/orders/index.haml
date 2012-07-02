@@ -1,0 +1,20 @@
+=link_to("Istorija", completed_orders_path, :class=>"link")
+#orders
+  =render @orders
+        
+:javascript
+  $(function() {
+    if ($("#orders").length > 0) {
+      setTimeout(updateOrders, 10000);
+    }
+  });
+
+  function updateOrders () {
+    if ($(".order").length > 0) {
+        var after = $(".order:first-child").attr("data-time");
+      } else {
+        var after = "0";
+      }
+    $.getScript("/orders.js?after=" + after)
+    setTimeout(updateOrders, 10000);
+  }

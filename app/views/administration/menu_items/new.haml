@@ -1,0 +1,5 @@
+%h1
+  New Item
+  
+=form_for(@menu_item, :url => administration_menu_items_path) do |f|
+  =render :partial => 'form', :locals => {:f => f}

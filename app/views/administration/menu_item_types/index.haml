@@ -1,0 +1,8 @@
+-content_for :submenu do
+  =link_to "New group", new_administration_menu_item_type_path
+  
+%ul
+  -for type in @menu_item_types
+    %li
+      =link_to type.name, edit_administration_menu_item_type_path(type)
+  

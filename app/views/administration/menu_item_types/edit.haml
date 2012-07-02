@@ -1,0 +1,12 @@
+- content_for :submenu do
+  = link_to "New group", new_administration_menu_item_type_path
+
+- content_for :sidemenu do
+  %ul
+    -for type in @menu_item_types
+      %li
+        =link_to type.name, edit_administration_menu_item_type_path(type)
+%h1
+  Edit Item
+=form_for(@menu_item_type, :url => administration_menu_item_type_path(@menu_item_type)) do |f|
+  =render :partial => 'form', :locals => {:f => f}

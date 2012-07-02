@@ -1,0 +1,3 @@
+<% unless @new_orders.empty? %>
+$("#orders").prepend("<%=raw escape_javascript(render(@new_orders)) %>");
+<% end %>

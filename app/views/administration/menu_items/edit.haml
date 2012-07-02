@@ -1,0 +1,28 @@
+- content_for :submenu do
+  = link_to "New menu item", new_administration_menu_item_path
+
+- content_for :sidemenu do
+  %ul
+    -for menu_item in @menu_items
+      %li
+        =link_to menu_item.name, edit_administration_menu_item_path(menu_item)
+        =menu_item.menu_item_type.name
+%h1
+  Edit Item
+=form_for(@menu_item, :url => administration_menu_item_path(@menu_item)) do |f|
+  =render :partial => 'form', :locals => {:f => f}
+
+
+#add-variant-form
+  %h1
+    Add new variant
+  =form_for(@variant, :remote => true, :url=> administration_variants_path) do |f|
+    =f.label :name
+    =f.text_field :name
+    =f.label :price
+    =f.text_field :price
+    =hidden_field_tag 'variant[menu_item_id]', params[:id]
+    =f.submit "Add variant"
+    
+#variants
+  =render :partial => "show_variants", :locals => { :variants => @variants}

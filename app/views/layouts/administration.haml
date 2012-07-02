@@ -1,0 +1,38 @@
+!!!
+%html{html_attrs('en')}
+  %head
+    %meta{'http-equiv' => 'content-type', 'content' => 'text/html;charset=UTF-8'}
+    = javascript_include_tag "application"
+    = stylesheet_link_tag    "administration", :media => "all"
+  %title
+    ADMINISTRATION
+  = yield :head
+
+  %body
+    = raw "<p class='flash_notice'> #{notice}</p>"  if notice
+    = raw "<p class='flash_error'>#{alert}</p>"     if alert
+    
+    #container
+      = render :partial => 'shared/admin/menu_bar'
+
+      -if  content_for? :submenu
+        #submenu
+          = yield :submenu
+
+      - if content_for?(:sidemenu)
+        #sidemenu
+          = yield :sidemenu
+        #body
+          = yield
+      - else
+        #body
+          = yield
+      = yield :bottom
+
+:javascript
+  jQuery(window).ready(
+    function() {
+      jQuery('.flash_notice').delay(6000).slideUp( 'slow');
+      jQuery('.flash_error').delay(6000).slideUp( 'slow');
+    }
+  );

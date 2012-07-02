@@ -1,0 +1,38 @@
+@import "compass";
+@import "compass/reset";
+@import "blueprint";
+@import "blueprint/buttons";
+
+#admin-navigation-bar {
+  @include container;
+  li {
+    @include button-button();
+    @include button-colors();
+    }
+}
+
+#container{
+  @include container;
+}
+
+#submenu{
+  @include container;
+}
+
+#sidemenu{
+  @include column(8);
+  margin-top:20px;
+}
+
+#body{
+  @include column(14, true);
+  margin-top:20px;
+}
+
+#add-variant-form{
+  margin-top:50px;
+}
+
+#variants{
+  margin-top:20px;
+}
