@@ -1,4 +1,4 @@
-#utf-8
+# encoding: UTF-8
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
@@ -25,14 +25,29 @@ Guest.find_or_create_by_name_and_email("Spejauskas Sliziunas",    "spesli@mail.c
 Guest.find_or_create_by_name_and_email("Gaudene Paburkelnyte",    "gaupab@mail.com")
 
 
-
-admin = Admin.create! do |u|
-  u.email = 'admin@admin.com'
-  u.password = 'pass123'
-  u.password_confirmation = 'pass123'
+MenuItemType.delete_all
+open("#{Rails.root}/config/menuItemTypes.txt") do |types|
+  types.read.each_line do |type|
+    name = type.chomp
+    MenuItemType.create!(:name => name)
+  end
 end
+
+MenuItem.delete_all
+open("#{Rails.root}/config/menuItems.txt") do |file|
+  file.read.each_line do |item|
+    menuType, name, description, price = item.chomp.split("|")
+    menuTypeId = MenuItemType.find_by_name(menuType).id
+    MenuItem.create!(:menu_item_type_id => menuTypeId, :name => name, :description => description, :price => price, :active => true)
+  end
+end
+
+
+
+Admin.delete_all
+Admin.create!(:email =>"admin@admin.com", :password =>"kosmosas", :password_confirmation =>"kosmosas")
 #admin.confirm!
-puts 'New admin created!'
-puts 'Email   : ' << admin.email
-puts 'Password: ' << admin.password
+#puts 'New admin created!'
+#puts 'Email   : ' << admin.email
+#puts 'Password: ' << admin.password
 

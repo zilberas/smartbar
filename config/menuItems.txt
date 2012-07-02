@@ -1,0 +1,31 @@
+Salotos|Salotos su tunu|(įvairių salotų lapai, pomidorai, agurkai, paprika, alyvuogių aliejus...)|15.00
+Salotos|Salotos su kumpiu|(įvairių salotų lapai, pomidorai, agurkai, paprika, alyvuogių aliejus...)|15.00
+Salotos|Salotos su feta|(įvairių salotų lapai, pomidorai, agurkai, paprika, alyvuogių aliejus...)|15.00
+Sriuba|Dienos sriuba|(kiekvieną dieną kita)|7.00
+Užkandžiai|Užkandis prie alaus|Kepta duona, riešutai, sūris|7.0
+Užkandžiai|Sumuštiniai su rūkytu kumpiu||8.0
+Užkandžiai|Sumuštiniai su sūdyta lašiša||8.0
+Užkandžiai|Hot Dog||8.0
+Užkandžiai|Susi rinkinys||15.0
+Karšti patiekalai|Makaronai su troškinta jautiena||20.00
+Karšti patiekalai|Kiaulienos sprandinės šašlykas su daržovėmis||20.00
+Karšti patiekalai|Lašišos kepsnys su karštomis daržovėmis||30.00
+Karšti patiekalai|Krevetės ant iešmo su šviežiomis salotomis||30.00
+Karšti patiekalai|Jautienos kepsnys (steikas) su grill daržovėmis||50.00
+Saldumynai|Ledai, šerbetai||5.00
+Saldumynai|Vaisių ir sūrių lėkštė|(dviems asmenims)|20.00
+Gėrimai|Alus Volfas Elgelman||7.00
+Gėrimai|Sidras||7.00
+Gėrimai|Gaivieji gėrimai|(sultys, vanduo, gira)|5.00
+Gėrimai|Kava, arbata||5.00
+Vynai, šampanai, kokteiliai|Vynas Baltasis|150ml.|10.00
+Vynai, šampanai, kokteiliai|Vynas Rausvasis|150ml.|10.00
+Vynai, šampanai, kokteiliai|Vynas Raudonasis|150ml.|10.00
+Vynai, šampanai, kokteiliai|Šampanas Moutard Brut Grande Cuvee Champagne|100ml.|20.00
+Vynai, šampanai, kokteiliai|Šampanas Moutard Dame Nesle Pinot Noir Brut Rose Champagne|100ml.|20.00
+Vynai, šampanai, kokteiliai|Cinzano Prosecco|100ml.|10.00
+Vynai, šampanai, kokteiliai|Cinzano asti su uogomis|100ml.|10.00
+Vynai, šampanai, kokteiliai|Vermutas Cinzano|100ml.|10.00
+Vynai, šampanai, kokteiliai|Sangria su vaisiais|200ml.|10.00
+Vynai, šampanai, kokteiliai|Kokteiliai: Aperol Spritz|200ml.|15.00
+Cigaterės|Kažkokios cigaretės||10.00
