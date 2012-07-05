@@ -6,7 +6,7 @@ xml.menu_items do
       xml.group menu_item.menu_item_type.name
       xml.name menu_item.name
       xml.description menu_item.description
-      xml.price number_to_currency(menu_item.price, :format => "%n %u", :separator => ",", :delimiter => " ", :unit=>"")
+      xml.price number_to_currency(menu_item.price, :format => "%n%u", :separator => ",", :delimiter => "", :unit=>"")
       xml.active menu_item.active
     end
   end

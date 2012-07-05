@@ -45,9 +45,9 @@ class OrdersController < ActionController::Base
     end
   end
   
-  #visi ivykdyti
+  #ivykdyti
   def completed
-    @orders = Order.where('completed = ?', true).order('id DESC').paginate(:page => params[:page], :per_page => 2)
+    @orders = Order.where('completed = ?', true).order('id DESC').paginate(:page => params[:page], :per_page => 10)
   end
   
 end
