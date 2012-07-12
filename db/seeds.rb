@@ -42,8 +42,6 @@ open("#{Rails.root}/config/menuItems.txt") do |file|
   end
 end
 
-
-
 Admin.delete_all
 Admin.create!(:email =>"admin@admin.com", :password =>"kosmosas", :password_confirmation =>"kosmosas")
 #admin.confirm!
