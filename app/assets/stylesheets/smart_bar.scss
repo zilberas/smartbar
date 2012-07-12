@@ -3,6 +3,12 @@
   @include container;
 }
 
+#title{
+  text-align:center;
+  font-size:24px;
+  margin:auto;
+}
+
 .clear
 {
   clear:both;
