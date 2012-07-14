@@ -1,8 +1,7 @@
-Užkandžiai|Prie alaus|(kepinta duona, riešutai, sūris)|8.00
-Užkandžiai|Prie vyno|(traškios lazdelės, sūris, alyvuogės)|8.00
-Užkandžiai|Sumuštiniai su vištiena||8.00
-Užkandžiai|Sumuštiniai su sūriu||8.00
-Užkandžiai|Sumuštiniai su lašiša||8.00
+Užkandžiai|Užkandis prie alaus|(kepinta duona, riešutai, sūris)|8.00
+Užkandžiai|Užkandis prie vyno|(traškios lazdelės, sūris, alyvuogės)|8.00
+Užkandžiai|Sumuštiniai|(su vištiena, su sūriu, su lašiša)|8.00
+Užkandžiai|Submarinai|(su kiauliena, su kalakutiena, su kumpiu)|8.00
 Užkandžiai|Hot Dog|(su pieniška dešrele)|8.00
 Užkandžiai|Hamburgeris|(su malta jautiena)|8.00
 Užkandžiai|Sushi rinkinys||15.00
@@ -25,7 +24,9 @@ Gėrimai|Gazuotas vanduo||5.00
 Gėrimai|Negazuotas vanduo||5.00
 Gėrimai|Kava||5.00
 Gėrimai|Kava su pienu||5.00
-Gėrimai|Arbata||5.00
+Gėrimai|Arbata (juoda)||5.00
+Gėrimai|Arbata (žalia)||5.00
+Gėrimai|Arbata (vaisinė)||5.00
 Gėrimai|Alus Volfas Elgelman|500ml.|7.00
 Gėrimai|Sidras|but.330ml|7.00
 Gėrimai|Šampanas Moutard Brut Grande Cuvee Champagne|100ml|25.00
@@ -39,4 +40,6 @@ Gėrimai|Cinzano asti su uogomis|100ml.|10.00
 Gėrimai|Vermutas Cinzano|100ml.|10.00
 Gėrimai|Sangria su vaisiais|200ml.|10.00
 Gėrimai|Kokteilis: Aperol Spritz|150ml.|15.00
-Gėrimai|Cigaretės||10.00
+Gėrimai|Cigaretės "Kent mentol"||10.00
+Gėrimai|Cigaretės "Kent light"||10.00
+Gėrimai|Cigaretės "Kent original"||10.00
