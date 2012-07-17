@@ -8,15 +8,15 @@ Užkandžiai|Sushi rinkinys||15.00
 Salotos|Salotos su tunu|(įvairių salotų lapai, daržovės, kiaušinis, tunas)|15.00
 Salotos|Salotos su feta|(įvairių salotų lapai, daržovės, alyvuogės, feta)|15.00
 Salotos|Salotos su kumpiu|(įvairių salotų lapai, daržovės, persikai, kumpis)|15.00
-Sriuba|Dienos sriuba|(kokia?- klauskite padavėjo)|8.00
+Karšti patiekalai|Dienos sriuba|(kokia?- klauskite padavėjo)|8.00
 Karšti patiekalai|Krevetės ant iešmo su šviežiomis salotomis||25.00
 Karšti patiekalai|Lašišos kepsnys su garintomis daržovėmis||25.00
 Karšti patiekalai|Kiaulienos sprandinės šašlykas su marinuotomis daržovėmis||25.00
 Karšti patiekalai|Jautienos kepsnys (steikas) su grill daržovėmis ir bulvėmis||50.00
-Saldumynai|Vaniliniai ledai su vyšniomis||5.00
+Saldumynai|Vaniliniai ledai||5.00
 Saldumynai|Vaisių asorti||5.00
-Saldumynai|Šokoladiniai keksai su romu||5.00
-Saldumynai|Prancūziški kruasantai su džemu||5.00
+Saldumynai|Šokoladinis keksas su romu||5.00
+Saldumynai|Prancūziškas kruasantas su džemu||5.00
 Gėrimai|Apelsinų sultys||5.00
 Gėrimai|Pomidorų sultys||5.00
 Gėrimai|Obuolių sultys||5.00

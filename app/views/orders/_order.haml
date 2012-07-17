@@ -36,7 +36,7 @@
         Užsakymo id:
         =order.id
     .complete
-      =link_to("Įvykdytas", complete_order_path(order), :remote => true, :class=>"button")
+      =link_to("Patvirtinti", complete_order_path(order), :remote => true, :class=>"button")
     .clear
     .order_info
       -for item in order.menu_items

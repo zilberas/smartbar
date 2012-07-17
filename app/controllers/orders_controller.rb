@@ -24,12 +24,13 @@ class OrdersController < ActionController::Base
       @order.menu_items << MenuItem.find_by_id(id)
     end
     
-    @all_menu_items = MenuItem.all
+    #@all_menu_items = MenuItem.all
     @success = 1
     
       respond_to do |format|
         format.html { redirect_to orders_url }
-        format.json {render :layout => false, :json => {:order => @order, :all_menu_items => @all_menu_items, :success => @success}}
+        #format.json {render :layout => false, :json => {:order => @order, :all_menu_items => @all_menu_items, :success => @success}}
+        format.json {render :layout => false, :json => {:success => @success}}
       end
       
   end
